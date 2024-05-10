@@ -1,0 +1,74 @@
+@page
+@model Careoscope.Pages.DoctorView.AllAppointmentsModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Careoscope</h1>
+</div>
+
+<h3>All Appointments</h3> 
+
+<div>
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Patient Name</th>
+                @{
+                    var dateSort = "date_asc";
+                    if (Model.CurrentSort == "date_asc")
+                    {
+                        dateSort = "date_desc";
+                    }
+                }
+                <a asp-page="./AllAppointments" asp-route-CurrentSort="@dateSort"><th scope="col">Appointment Date/Time</th></a>
+                <th scope="col">Reason for Visit</th>
+                <th scope="col">Assigned Doctor</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var t in Model.ListOfAppointments)
+            {
+                @* iterates through all the appointments and puts the info on a table *@
+                <tr>
+                    <td><a method="ClickPatient(@t.PatientID)">@Html.DisplayFor(modelItem => t.Patient.FirstName) @Html.DisplayFor(modelItem => t.Patient.LastName)</a></td>
+                    <td>@Html.DisplayFor(modelItem => t.AppointmentDate)</td>
+                    <td>@Html.DisplayFor(modelItem => t.ReasonForVisit)</td>
+                    <td>Dr. @Html.DisplayFor(modelItem => t.Doctor.LastName)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <hr />
+
+    @{
+        var prevDisabled="";
+        if (Model.PageNum <= 1)
+        {
+            prevDisabled = "disabled";
+        }
+
+        var nextDisabled="";
+        if (Model.PageNum >= Model.MaxPageNum)
+        {
+            nextDisabled = "disabled";
+        }
+    }
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item @prevDisabled">
+            <a class="page-link" asp-page="./AllAppointments" asp-route-PageNum="@(Model.PageNum - 1)" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+            </li>
+            <li class="page-item @nextDisabled">
+            <a class="page-link" asp-page="./AllAppointments" asp-route-PageNum="@(Model.PageNum + 1)" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+            </li>
+        </ul>
+    </nav>
+</div>

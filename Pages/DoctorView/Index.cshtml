@@ -1,0 +1,47 @@
+@page
+@model Careoscope.Pages.DoctorView.IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Careoscope</h1>
+</div>
+
+<h3>Today's Schedule</h3>
+<a href="DoctorView/AllAppointments">All Appointments</a>
+<a href="DoctorView/CreateAppointment">Creat Appointment</a>
+
+<div>
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Patient Name</th>
+                <th scope="col">Appointment Time</th>
+                <th scope="col">Check-In/Check-Out</th>
+                <th scope="col">Check-In Time</th>
+                <th scope="col">Check-Out Time</th>
+                <th scope="col">Reason for Visit</th>
+                <th scope="col">Assigned Doctor</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var t in Model.TodayAppointments)
+            {
+                @* iterates through all the appointments and puts the info on a table *@
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => t.Patient.FirstName) @Html.DisplayFor(modelItem => t.Patient.LastName)</td>
+                    <td>@Html.DisplayFor(modelItem => t.AppointmentDate)</td>
+                    @* select to automate check in and checkout *@
+                    <td></td>
+                    @* shows check in time after selected *@
+                    <td></td>
+                    @* shows check out time after selected *@
+                    <td></td>
+                    <td>@Html.DisplayFor(modelItem => t.ReasonForVisit)</td>
+                    <td>Dr. @Html.DisplayFor(modelItem => t.Doctor.LastName)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

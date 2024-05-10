@@ -1,0 +1,29 @@
+@page
+@model Careoscope.Pages.DoctorView.CreateDoctorModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Careoscope</h1>
+</div>
+
+<h3>Create</h3> <a href="DoctorView/AllAppointments">All Appointments</a>
+
+<div class="text-center">
+    <label><input type="radio" value="1" name="FormSelector" asp-for="SelectorNumber" onclick="">New Appointment</label>
+    <label><input type="radio" value="2" name="FormSelector" asp-for="SelectorNumber">New Patient</label>
+    <label><input type="radio" value="3" name="FormSelector" asp-for="SelectorNumber">New Doctor</label>
+</div>
+
+<div id="Form1" style="@(Model.SelectorNumber == "1" ? "":"display:none")">
+    Appointment
+</div>
+
+<div id="Form2" style="@(Model.SelectorNumber == "2" ? "":"display:none")">
+    Patient
+</div>
+
+<div id="Form3" style="@(Model.SelectorNumber == "3" ? "":"display:none")">
+    Doctor
+</div>
