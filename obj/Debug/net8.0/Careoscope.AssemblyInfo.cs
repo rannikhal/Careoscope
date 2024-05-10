@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Careoscope")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec60df0462c7f6a0b1eb83584a2cbc9221ebbbd0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Careoscope")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Careoscope")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -17,87 +17,87 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Careoscope
 build_property.RootNamespace = Careoscope
-build_property.ProjectDir = C:\Users\giank\Documents\CIDM 3312\Careoscope\
+build_property.ProjectDir = c:\Users\giank\Documents\CIDM 3312\Careoscope\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\giank\Documents\CIDM 3312\Careoscope
+build_property.MSBuildProjectDirectory = c:\Users\giank\Documents\CIDM 3312\Careoscope
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/Appointments/Create.cshtml]
+[c:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/Appointments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwb2ludG1lbnRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/Appointments/Delete.cshtml]
+[c:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/Appointments/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwb2ludG1lbnRzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/Appointments/Details.cshtml]
+[c:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/Appointments/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwb2ludG1lbnRzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/Appointments/Edit.cshtml]
+[c:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/Appointments/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwb2ludG1lbnRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/Appointments/Index.cshtml]
+[c:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/Appointments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwb2ludG1lbnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/DoctorView/AllAppointments.cshtml]
+[c:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/DoctorView/AllAppointments.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdG9yVmlld1xBbGxBcHBvaW50bWVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/DoctorView/Create.cshtml]
+[c:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/DoctorView/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdG9yVmlld1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/DoctorView/CreateAppointment.cshtml]
+[c:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/DoctorView/CreateAppointment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdG9yVmlld1xDcmVhdGVBcHBvaW50bWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/DoctorView/CreateDoctor.cshtml]
+[c:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/DoctorView/CreateDoctor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdG9yVmlld1xDcmVhdGVEb2N0b3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/DoctorView/CreatePatient.cshtml]
+[c:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/DoctorView/CreatePatient.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdG9yVmlld1xDcmVhdGVQYXRpZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/DoctorView/Index.cshtml]
+[c:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/DoctorView/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdG9yVmlld1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/DoctorView/PatientSchedule.cshtml]
+[c:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/DoctorView/PatientSchedule.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG9jdG9yVmlld1xQYXRpZW50U2NoZWR1bGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/Error.cshtml]
+[c:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/Index.cshtml]
+[c:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/Privacy.cshtml]
+[c:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/_ViewImports.cshtml]
+[c:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/_ViewStart.cshtml]
+[c:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/Shared/_Layout.cshtml]
+[c:/Users/giank/Documents/CIDM 3312/Careoscope/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-x32e9jhtuz

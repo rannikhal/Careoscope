@@ -5,6 +5,7 @@ using Careoscope.Models;
 using NuGet.Common;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using System.Reflection.Metadata;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Careoscope.Pages.DoctorView;
 
@@ -22,6 +23,9 @@ public class CreateAppointmentModel : PageModel
     public Patient Patient {get;set;} = default!;
     public Doctor Doctor {get;set;} = default!;
 
+    public SelectList PatientDropDown {get;set;} = default!;
+    public SelectList DoctorDropDown {get;set;} = default!;
+
     public CreateAppointmentModel(CareoscopeDbContext context, ILogger<CreateAppointmentModel> logger)
     {
         _context = context;
@@ -38,7 +42,11 @@ public class CreateAppointmentModel : PageModel
 
         ListOfPatients = _context.Patients.ToList();
 
+        PatientDropDown = new SelectList(ListOfPatients, "PatientID", "FirstName");
+
         ListOfDoctors = _context.Doctors.ToList();
+
+        DoctorDropDown = new SelectList(ListOfDoctors, "DoctorID", "LastName");
 
         TodayAppointments = ListOfAppointments.Where(a => a.AppointmentDate == Today).ToList();
     }
@@ -52,6 +60,6 @@ public class CreateAppointmentModel : PageModel
         _context.Appointments.Add(Appointment);
         _context.SaveChanges();
 
-        return RedirectToPage("/DoctorView/Index");
+        return RedirectToPage("Index");
     }
 }
